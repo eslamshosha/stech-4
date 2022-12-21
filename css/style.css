@@ -1660,12 +1660,16 @@ select {
   .show-icons .btn-cont {
     display: none;
   }
-  /* .first-btn.contact-link,
+  html[dir="ltr"] .first-btn.contact-link,
+  html[dir="ltr"] .second-btn.contact-link {
+    font-size: 14px;
+  }
+  .first-btn.contact-link,
   .second-btn.contact-link {
-    width: 130px;
-    height: 35px;
-    font-size: 10px;
-  }*/
+    width: 250px;
+    height: 45px;
+    font-size: 14px;
+  }
   .second-btn.contact-link {
     margin: 0 0 10px;
   }

@@ -19,8 +19,7 @@ $(document).ready(function () {
     });
     $(".nav-head .close-btn").click(function () {
       $(".navgition").removeClass("reset-left");
-      $(".menu-bars .bars").toggleClass("open-bars");
-      $(".menu-bars .bars").toggleClass("close-bars");
+      $(".menu-bars").toggleClass("open-bars");
       $("body").removeClass("overflow");
     });
   }
@@ -57,7 +56,7 @@ $(document).ready(function () {
   //     $stickyheader.removeClass("fixed-header", { duration: 500 });
   //   }
   // });
-  
+
   ///////// ** main** /////////
   var specials = new Swiper(".main-slider .swiper-container", {
     loop: true,
@@ -212,6 +211,11 @@ $(document).ready(function () {
   //////////** scroll to section **//////////
   $(document).on("scroll", onScroll);
   $('.big-menu a[data-href^="#"]').on("click", function (e) {
+
+    $(".navgition").toggleClass("reset-left");
+    $(".menu-bars").removeClass("open-bars");
+
+    $("body").removeClass("overflow");
     e.preventDefault();
     $(document).off("scroll");
 
@@ -227,7 +231,7 @@ $(document).ready(function () {
       .stop()
       .animate(
         {
-          scrollTop: $target.offset().top - 30,
+          scrollTop: $target.offset().top - 70,
         },
         500,
         "swing",
@@ -255,8 +259,8 @@ $(document).ready(function () {
   }
 });
 
-mixitup
-var mixer = mixitup('.container');
+mixitup;
+var mixer = mixitup(".container");
 var containerEl = document.querySelector("#mix-container");
 
 var mixer = mixitup(containerEl, {
