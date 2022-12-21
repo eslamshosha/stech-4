@@ -489,7 +489,8 @@ html[dir="ltr"] .second-btn.contact-link {
 .about-us-pargh {
   text-align: center;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.7;
   color: var(--white-color);
   margin-bottom: 40px;
   max-width: 948px;
