@@ -174,7 +174,7 @@ $(document).ready(function () {
   $(document).on("scroll", onScroll);
   $('.big-menu a[data-href^="#"]').on("click", function (e) {
 
-    $(".navgition").toggleClass("reset-left");
+    $(".navgition").removeClass("reset-left");
     $(".menu-bars").removeClass("open-bars");
 
     $("body").removeClass("overflow");
