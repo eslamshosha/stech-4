@@ -723,7 +723,7 @@ html[dir="ltr"] .counter-section::before {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 7px;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
 .gallery .gallery-figure {
   position: relative;
