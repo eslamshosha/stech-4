@@ -9,7 +9,7 @@ body {
 
 @media (max-width: 991px) {
   body {
-    padding-top: 110px;
+    padding-top: 69px;
   }
 }
 
@@ -571,7 +571,7 @@ html[dir="ltr"] .about-us-link {
   text-transform: capitalize;
   color: var(--white-color);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
 }
 
@@ -1654,7 +1654,7 @@ select {
   }
   .navgition .btn-cont {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .show-icons .btn-cont {
     display: none;
@@ -1664,10 +1664,10 @@ select {
     width: 130px;
     height: 35px;
     font-size: 10px;
-  }
+  }*/
   .second-btn.contact-link {
     margin: 0 0 10px;
-  } */
+  }
   .fixed-nav .nav-header {
     padding: 10px 20px;
   }
